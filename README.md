@@ -19,6 +19,7 @@
 一套从真实项目中提炼出来的 Claude Code 工作环境配置：
 
 - **终端美化** — Claude Dark 暗色主题全家桶 (Windows Terminal + Oh My Posh + PSReadLine 语法高亮 + fzf)
+- **Clash 智能代理** — Clash Verge Rev 全局扩展脚本 (倍率感知 + GEOSITE + 多级 fallback + 7 功能组)
 - **Skills** — Claude Code 可复用技能文件
 - **Rules** — 编码规范、安全检查、TDD 工作流
 - **Agents** — 8 个专用子代理 (planner, architect, code-reviewer, tdd-guide...)
@@ -104,6 +105,9 @@ claw-rice/
 │   ├── powershell/          # PowerShell profile + ANSI splash screen
 │   ├── windows-terminal/    # Claude Dark 配色方案
 │   └── omp/                 # Oh My Posh 极简提示符主题
+├── clash/
+│   ├── clawproxy-global-extend.js  # Clash Verge Rev 全局扩展脚本
+│   └── README.md            # Clash 模块文档
 ├── skills/                  # Claude Code 技能文件
 │   └── terminal-ricing.md   # 终端美化踩坑知识库
 ├── rules/                   # 编码规范 + 安全 + TDD + Git
