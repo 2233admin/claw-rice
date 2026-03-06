@@ -1,0 +1,54 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Claude Dark",
+            "cursorShape": "filledBox",
+            "font": {
+                "face": "JetBrainsMono Nerd Font",
+                "size": 12,
+                "weight": "normal"
+            },
+            "opacity": 100,
+            "padding": "12, 8, 12, 8",
+            "useAcrylic": false
+        },
+        "list": [
+            {
+                "commandline": "pwsh.exe -nologo",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Claude Dark",
+            "background": "#090909",
+            "foreground": "#999999",
+            "cursorColor": "#D97757",
+            "selectionBackground": "#1A1410",
+            "black": "#090909",
+            "red": "#CC5555",
+            "green": "#557755",
+            "yellow": "#8B6B53",
+            "blue": "#555577",
+            "purple": "#775577",
+            "cyan": "#557777",
+            "white": "#888888",
+            "brightBlack": "#444444",
+            "brightRed": "#D97757",
+            "brightGreen": "#6B8F6B",
+            "brightYellow": "#D97757",
+            "brightBlue": "#6B6B8F",
+            "brightPurple": "#8F6B8F",
+            "brightCyan": "#6B8F8F",
+            "brightWhite": "#BBBBBB"
+        }
+    ]
+}
